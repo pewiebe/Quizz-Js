@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+</head>
+
+<body>
+    <!-- Começa  Quiz  -->
+    <div class="start_btn"><button>Começa Quiz</button></div>
+
+    <!-- Infomação da Caixa -->
+    <div class="info_box">
+        <div class="info-title"><span>Algumas Regras deste Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Você terá apenas <span>15 segundos</span> por cada questão.</div>
+            <div class="info">2. Depois de selecionar sua resposta, ela não pode ser desfeita.</div>
+            <div class="info">3. Você não pode selecionar nenhuma opção quando o tempo disparar.</div>
+            <div class="info">4. Não é possível sair do Quiz enquanto estiver jogando.</div>
+            <div class="info">5. Você receberá pontos com base em suas respostas corretas.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Sair Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Caixa -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Incrível Aplicação de Quiz</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo Restante</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Aqui eu inseri a pergunta do JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Aqui eu inseri opções do JavaScript -->
+            </div>
+        </section>
+
+        <!-- rodapé da Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Aqui eu inseri o Número de Contagem de Perguntas do JavaScript -->
+            </div>
+            <button class="next_btn">Próxima</button>
+        </footer>
+    </div>
+
+    <!-- Resultado Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Você concluiu o Questionário!</div>
+        <div class="score_text">
+            <!-- Aqui eu inseri o Resultado da Pontuação do JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Refazer Quiz</button>
+            <button class="quit">Sair do Quiz</button>
+        </div>
+    </div>
+    <!-- Dentro deste arquivo JavaScript, inseri apenas Perguntas e Opções -->
+    <script src="./questions.js"></script>
+
+    <!-- Dentro deste arquivo JavaScript eu codificei todos os códigos de teste -->
+    <script src="./script.js"></script>
+</body>
+<footer>
+    <p>&copy; 2023 - Todos os direitos reservados para o Pewiebe</p>
+ </footer>
+ 
+</html>
